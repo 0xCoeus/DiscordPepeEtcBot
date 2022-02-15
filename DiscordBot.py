@@ -18,10 +18,10 @@ def main():
     async def on_message(message):
         token = os.getenv("DISCORD_TOKEN_ID")
         if message.content == '$pepe':
-          path = "C:/Users/nkman/OneDrive/Documents/GitHub/DiscordPepeEtcBot/pepes"
+          path = "C:/Users/nkman/Crypto_Twitter/pepes"
           files = os.listdir(path)
           d = random.choice(files)
-          await message.channel.send(file=discord.File(f"C:/Users/nkman/OneDrive/Documents/GitHub/DiscordPepeEtcBot/pepes/{d}"))
+          await message.channel.send(file=discord.File(f"C:/Users/nkman/Crypto_Twitter/pepes/{d}"))
 
 
     client.run(os.getenv("DISCORD_TOKEN_ID"))

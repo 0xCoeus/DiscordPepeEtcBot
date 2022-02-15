@@ -24,4 +24,4 @@ def main():
           await message.channel.send(file=discord.File(f"C:/Users/nkman/Crypto_Twitter/pepes/{d}"))
 
 
-    client.run('OTQyNDY5NDU1NjUxNDMwNTgx.Ygk9FA.KmS0TR2x0__PIClDa0dM09iGagE')
+    client.run(os.getenv("DISCORD_TOKEN_ID"))

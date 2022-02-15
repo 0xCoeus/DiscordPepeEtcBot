@@ -128,4 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/pepes
+pepes
+pepes/
+DiscordPepeEtcBot/pepes
+*.jpg
+*.jpeg
+*.png
